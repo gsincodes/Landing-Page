@@ -3,12 +3,20 @@ body{
     margin: 0px;
     display: flex;
     flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    min-width: 50vw;
 }
 
 .header{
     display: flex;
-    justify-content: space-between;
     background-color: #1F2937;
+    justify-content: center;
+}
+
+.imaginary-box{
+    display: flex;
+    justify-content:space-between;
+    width: 60vw;
 }
 
 .logo-text{
@@ -17,11 +25,6 @@ body{
     justify-content: center;
     color: #F9FAF8;
     font-size: 24px;
-    padding: 10px;
-}
-
-.right-links{
-    padding: 10px;
 }
 
 .content-1,.content-2,.content-3,.content-4{
@@ -35,10 +38,28 @@ body{
 }
 
 .inner-box{
-    display: flex;
-    height: 150px;
     gap:30px;
-    margin:50px;
+    width: 60vw;
+    display: flex;
+    margin: 50px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    background-color: grey;
+    width: 40vw;
+    height: 20vh;
 }
 
 .content-2{
@@ -46,6 +67,14 @@ body{
     padding:30px;
     gap: 30px;
     padding-bottom: 60px;
+    margin: 30px;
+}
+
+.c-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
 }
 
 .header-2{
@@ -58,6 +87,7 @@ body{
 .card-sec{
     display: flex;
     justify-content: space-evenly;
+    min-width: 60vw;
 }
 
 .card{
@@ -83,35 +113,24 @@ body{
     width:100px;
 }
 
-.description{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-.image-area{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #E5E7EB;
-    background-color: grey;
-}
-
-.image{
-    width: 400px;
-    height: 150px;
-}
-
 .content-3{
     flex-direction: column;
     background-color: #E5E7EB;
     padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ib-2{
+    display: flex;
+    flex-direction: column;
 }
 
 .motivation{
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 100;
+    font-style: italic;
 }
 
 .author{
@@ -127,19 +146,21 @@ body{
 
 .signup-box{
     display: flex;
-    padding: 50px 100px;
+    padding: 50px 0px;
     border-radius: 10px;
     background-color: #3882F6;
     gap: 100px;
     color: white;
-    margin: 50px;
+    width: 60vw;
+    justify-content: space-evenly;
+    margin: 70px;
 }
 .sign-up-2{
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
 .button-area{
-    margin: auto;
+    margin: auto 0;
 }
 
 .footer{
